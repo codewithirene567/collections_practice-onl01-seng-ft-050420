@@ -49,6 +49,7 @@ def add_s(added)
     new.insert(-1, 's')  
 end
 end
+end
 
 
 
