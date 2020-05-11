@@ -46,8 +46,8 @@ def add_s(added)
   else
     added.select do |new|
     new.insert(-1, 's')  
-  end
 end
+
 
 
   
