@@ -41,12 +41,13 @@ def sum_array(integers)
 end
 
 def add_s(added)
- added.collect do |word|
-    if array[1] == word
-      word
-  else
-    added.select do |new|
-    new.insert(-1, 's')  
+  added.collect do |new|
+    if added[1] == new
+      new
+    else
+      new + "s"
+    end
+  end
 end
 
 
