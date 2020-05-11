@@ -50,13 +50,6 @@ def add_s(added)
 end
 end
 
-def add_s(array)
-  
-    else
-      word + "s"
-    end
-  end
-end
 
 
   
