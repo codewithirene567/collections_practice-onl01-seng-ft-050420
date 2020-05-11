@@ -41,7 +41,7 @@ def sum_array(integers)
 end
 
 def add_s(added)
-  added.select do |new|
+  if added added.select do |new|
     new.insert(-1, 's')  
   end
 end
